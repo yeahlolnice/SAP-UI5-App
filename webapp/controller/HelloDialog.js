@@ -33,7 +33,10 @@ sap.ui.define([
                     oView.addDependent(oDialog);
                     oDialog.open();
                 })
+            } else {
+                oView.byId("helloDialog").open();
             }
+            
         }
     })
 })
